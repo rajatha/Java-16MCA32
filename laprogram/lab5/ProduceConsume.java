@@ -67,6 +67,7 @@ class Consumer extends Thread{
 		{
 			int i=c.consume();
 			System.out.println("Consumer consumed: "+i);
+			// pause for 1 sec
 			try
 			{
 				Thread.sleep(1000);
